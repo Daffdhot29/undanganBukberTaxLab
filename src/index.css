@@ -1,0 +1,11 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css */
+@media (max-width: 640px) {
+  .hero-quote {
+    margin-bottom: 3rem !important;
+  }
+}
