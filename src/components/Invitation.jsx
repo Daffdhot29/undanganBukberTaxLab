@@ -463,7 +463,7 @@ const FullInvitationContent = ({ isVisible }) => {
             </motion.a>
 
             <p className="mt-6 text-white/60 text-[10px] sm:text-xs tracking-[0.2em] uppercase font-bold">
-              Paling lambat: Jumat, 27 Maret 2026
+              Paling lambat: Jumat, 27 Februari 2026
             </p>
           </div>
 
