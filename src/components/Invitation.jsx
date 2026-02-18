@@ -231,7 +231,7 @@ const FullInvitationContent = ({ isVisible }) => {
 
             {/* TOMBOL ADD TO CALENDAR */}
             <motion.a
-              href="https://www.google.com/calendar/render?action=TEMPLATE&text=Buka+Puasa+Bersama+Tax+Laboratory&dates=20260307T090000Z/20260307T140000Z&details=Acara+Buka+Puasa+Bersama+Tax+Laboratory.+Jangan+lupa+datang+ya!&location=Pondok+Laras,+Jl.+Akses+UI+No.2,+Tugu,+Kec.+Cimanggis,+Depok"
+              href="https://www.google.com/calendar/render?action=TEMPLATE&text=Buka+Puasa+Bersama+Tax+Laboratory&dates=20260307T090000Z/20260307T140000Z&details=Acara+Buka+Puasa+Bersama+Tax+Laboratory.+Jangan+lupa+datang+ya!&location=Acses+Cafe+%26+Rawon+Sengkel,+Jl.+Akses+UI,+Depok" 
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.02 }}
