@@ -224,7 +224,7 @@ const FullInvitationContent = ({ isVisible }) => {
                   Waktu
                 </p>
                 <p className="font-bold text-base sm:text-lg text-[#4A352A]">
-                  16.00 WIB - Selesai
+                  16.30 WIB - Selesai
                 </p>
               </div>
             </div>
@@ -265,16 +265,17 @@ const FullInvitationContent = ({ isVisible }) => {
 
               <div className="space-y-2">
                 <h3 className="text-xl sm:text-2xl font-bold text-[#4A352A]">
-                  Pondok Laras
+                 Acses cafe
                 </h3>
 
                 <p className="text-gray-600 text-sm sm:text-base px-2">
-                  Jl. Akses UI No.2, Tugu, Kec. Cimanggis, Depok
+                  Jl. Akses UI No.43, Tugu, Kec. Cimanggis, Kota Depok, Jawa Barat 16451
                 </p>
               </div>
 
+              
               <a
-                href="https://www.google.com/maps" // Ganti dengan link lokasi spesifik Anda
+                href="https://maps.app.goo.gl/QEz13ij84zkqzBdw8" // Ganti dengan link lokasi spesifik Anda
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#E2725B] to-[#C85A46] text-white rounded-full text-sm font-bold hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-md border-2 border-[#E2725B]/20"
@@ -287,8 +288,7 @@ const FullInvitationContent = ({ isVisible }) => {
             <div className="rounded-xl overflow-hidden shadow-lg border border-gray-200 h-64 w-full relative">
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 pointer-events-none"></div>
 
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.443134382325!2d106.8451244747397!3d-6.369256893620757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3bcf7a0d0a1%3A0x1a1a1a1a1a1a1a1a!2sPondok%20Laras!5e0!3m2!1sen!2sid!4v1234567890123!5m2!1sen!2sid"
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3011117944143!2d106.84034849999999!3d-6.3550537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed9d664ed2df%3A0x13009659ced43945!2sAcses%20cafe%26Rawon%20sengkel!5e0!3m2!1sid!2sid!4v1771394363179!5m2!1sid!2sid" 
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -296,8 +296,9 @@ const FullInvitationContent = ({ isVisible }) => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="grayscale hover:grayscale-0 transition-all duration-500"
-                title="Pondok Laras Map"
-              ></iframe>
+                title="Acses Cafe"
+              >
+              </iframe>
             </div>
           </div>
         </AnimatedCard>
@@ -444,7 +445,7 @@ const FullInvitationContent = ({ isVisible }) => {
 
             {/* 3. Button RSVP dengan Efek Pop-up & Shine */}
             <motion.a
-              href="https://forms.gle/link-gform-kamu" // GANTI DENGAN LINK GFORM KAMU
+              href="https://forms.gle/KLioAGFnh4zPKDCEA" // GANTI DENGAN LINK GFORM KAMU
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -461,8 +462,8 @@ const FullInvitationContent = ({ isVisible }) => {
               <span>ISI FORM KEHADIRAN</span>
             </motion.a>
 
-            <p className="mt-6 text-white/60 text-[10px] sm:text-xs tracking-[0.2em] uppercase">
-              Paling lambat: 01 Maret 2026
+            <p className="mt-6 text-white/60 text-[10px] sm:text-xs tracking-[0.2em] uppercase font-bold">
+              Paling lambat: Jumat, 27 Maret 2026
             </p>
           </div>
 
