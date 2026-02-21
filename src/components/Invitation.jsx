@@ -347,8 +347,8 @@ const FullInvitationContent = ({ isVisible }) => {
                   <span className="inline-block px-3 py-1 bg-[#E2725B] text-white text-[10px] sm:text-xs rounded-md font-bold tracking-wider shadow-sm mb-1">
                     GAMIS
                   </span>
-                  <p className="text-[10px] text-[#8B7368] italic mt-1">
-                    Sopan & Menutup Aurat
+                  <p className="text-[10px] text-[#8B7368] italic mt-1 font-bold">
+                    Warna Bebas, Sopan & Menutup Aurat
                   </p>
                 </div>
               </div>
@@ -380,7 +380,7 @@ const FullInvitationContent = ({ isVisible }) => {
                   <span className="inline-block px-3 py-1 bg-[#C85A46] text-white text-[10px] sm:text-xs rounded-md font-bold tracking-wider shadow-sm mb-1">
                     BAJU KOKO
                   </span>
-                  <p className="text-[10px] text-[#8B7368] italic mt-1">
+                  <p className="text-[10px] text-[#8B7368] italic mt-1 font-bold">
                     Warna Bebas, Rapi & Bersih
                   </p>
                 </div>
@@ -464,6 +464,9 @@ const FullInvitationContent = ({ isVisible }) => {
 
             <p className="mt-6 text-white/60 text-[10px] sm:text-xs tracking-[0.2em] uppercase font-bold">
               Paling lambat: Jumat, 27 Februari 2026
+            </p>
+            <p className="mt-6 text-white/60 text-[10px] sm:text-xs tracking-[0.2em] uppercase font-bold">
+              Pukul : 15.00 WIB 
             </p>
           </div>
 
